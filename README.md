@@ -1,5 +1,5 @@
 # AwesomeInoreader
-Widget for AwesomeWM to display total amount of unread articles
+Widget for AwesomeWM to display total amount of unread articles.
 
 
 Requirements
@@ -11,7 +11,7 @@ luarocks install lua-cjson
 
 Usage
 -----
-Put ino.lua in your awesome folder (~/.config/awesome/)
+Put ino.lua in your awesome folder (~/.config/awesome/).
 
 Import with ```local ino = require("ino")``` 
 
