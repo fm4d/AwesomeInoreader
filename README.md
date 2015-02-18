@@ -11,7 +11,7 @@ luarocks install lua-cjson
 
 Usage
 -----
-Put ino.lua in your awesome folder (~/.config/awesome/).
+Put ```ino.lua``` in your awesome folder (```~/.config/awesome/```).
 
 Import with ```local ino = require("ino")``` 
 
@@ -24,8 +24,8 @@ inotimer:connect_signal("timeout", function() inowidget:set_text(inohandler:getU
 inowidget:set_text("...")
 inotimer:start()
 ```
-"A" means unable to authorize  
-"E" means unable to get data about unread articles
+"A" means unable to authorize  .
+"E" means unable to get data about unread articles.
 
-Auth token actually lasts 30 days, but I am lazy.
+Auth token actually lasts 30 days, but I am too lazy to store it.
 
