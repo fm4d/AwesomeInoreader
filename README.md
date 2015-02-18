@@ -24,8 +24,11 @@ inotimer:connect_signal("timeout", function() inowidget:set_text(inohandler:getU
 inowidget:set_text("...")
 inotimer:start()
 ```
-"A" means unable to authorize  .
-"E" means unable to get data about unread articles.
+Timeout means how often you want to fetch unread count from Inoreader server.
+
+This widget will only display number of unread articles or error code:  
+"A" - unable to authorize  
+"E" - unable to get data about unread articles
 
 Auth token actually lasts 30 days, but I am too lazy to store it.
 
