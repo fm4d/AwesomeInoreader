@@ -24,4 +24,8 @@ inotimer:connect_signal("timeout", function() inowidget:set_text(inohandler:getU
 inowidget:set_text("...")
 inotimer:start()
 ```
-Auth token actually lasts 30 days, but I am too lazy.
+"A" means unable to authorize
+"E" means unable to get data about unread articles
+
+Auth token actually lasts 30 days, but I am lazy.
+
